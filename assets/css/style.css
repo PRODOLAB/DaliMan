@@ -8,17 +8,38 @@
     div#spaces {
         text-align: center;
     }
-
+/* 
     body {
         color: #3a6b92c4;
         font-family: comic sans-serif;
         font-size: 18px;
+    } */
+    body {
+        z-index: 1;
+        font-family: ubuntu;
+        background: linear-gradient(-45deg, #590A89, #430522, #050964, #000000);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        font-size: 18px;
+        height: 100vh;
         margin-top: 20px;
     }
 
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
     h1 {
-        font-size: 36px;
-        color: #0a4990c4;
+        font-size: 50px;
+        color: #ffffff;
         font-family: comic sans-serif;
         font-family: 'Berkshire Swash', cursive;
     
@@ -64,9 +85,11 @@
         
     }
 
+   
+
     .animal{
-        width: 257px;
-        height: 175px;
+        width: 300px;
+        height: 325px;
         border-color: #f5f5f5;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-top: 20px;
@@ -83,7 +106,16 @@
     }
 
     div#side2{
-        background: #ffffff;
+        background: #ffffff00;
+        border-color: #ffffff00;
+    }
+
+    div#spaces {
+        color: rgba(255, 255, 255, 0);
+    }
+
+    .well h4 {
+        color: rgba(255, 255, 255, 0);
     }
 
     #spaces div {
@@ -99,7 +131,7 @@
         text-align: center;
         line-height: 35px;
         font-size: 20px;
-        color: #9d9d9d;
+        color: #ffffff;
         box-shadow: 1px 1px 8px #a9a5b5;
     }
     div2 {
@@ -127,7 +159,7 @@
         text-align: center;
         line-height: 35px;
         font-size: 20px;
-        color: #9d9d9d;
+        color: #ffffff;
         box-shadow: 1px 1px 8px #a9a5b5;
     }
 
@@ -138,6 +170,10 @@
 
     div#line2 {
         margin-bottom: 70px;
+    }
+
+    .well p {
+        color: #fff;
     }
 
     #line2 div {
@@ -153,7 +189,7 @@
         text-align: center;
         line-height: 35px;
         font-size: 20px;
-        color: #9d9d9d;
+        color: #ffffff;
         box-shadow: 1px 1px 8px #a9a5b5;
     }
 
@@ -175,7 +211,7 @@
     }
 
     h4{
-        font-size: 30px;
+        font-size: 0px;
     }
     .modal-header {
         
