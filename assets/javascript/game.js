@@ -1,6 +1,6 @@
 
 var userText = document.getElementById("user-text");
-var computerChoices = ["man with mango", "Teddy bear running in the woods"];
+var computerChoices = ["Man with mango", "Teddy bear running in the woods"];
 var numguessText = document.getElementById("numguess-text");
 var correctAnswer = document.getElementById("correctAnswer");
 var wrongCharArray = [];
